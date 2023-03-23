@@ -293,7 +293,6 @@ img{
     height: 60px;
     width: 60px;
     display: block;
-    background: #fff;
     text-align: center;
     border-radius: 50%;
     z-index: 2;
@@ -345,30 +344,3 @@ wrapper .icon .tooltip:before{
     text-shadow:0px -1px 0px rgba(0, 0, 0, 0.4) ;
 }
 
-.wrapper .facebook:hover span,
-.wrapper .facebook:hover .tooltip
-.wrapper .facebook:hover .tooltip::before{
-    background: #3b5999;
-
-}
-
-.wrapper .twitter:hover span,
-.wrapper .twitter:hover .tooltip
-.wrapper .twitter:hover .tooltip::before{
-    background: #46c1f6;
-    
-}
-
-.wrapper .instagram:hover span,
-.wrapper .instagram:hover  .tooltip
-.wrapper .instagram:hover  .tooltip::before{
-    background: #e1306c;
-    
-}
-
-.wrapper .youtube:hover span,
-.wrapper .youtube:hover .tooltip
-.wrapper .youtube:hover .tooltip::before{
-    background: #de463b;
-    
-}
